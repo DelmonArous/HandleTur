@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "handletur-app"
+version = "0.1.0"
+description = "An application for grocery shopping"
+authors = ["DelmonArous <delmon.arous@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.0.0"
+pandas = "^2.2.1"
+jupyterlab = "^4.2.3"
+plotly = "^5.22.0"
+kivy = "^2.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
