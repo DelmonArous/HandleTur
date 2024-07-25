@@ -26,7 +26,7 @@ def get_grocery_items(stores):
 
     # Generate random prices for each grocery store
     np.random.seed(0)  # For reproducibility
-    prices = {store: np.round(np.random.uniform(10, 100, 100), 2) for store in stores}
+    prices = {store: np.round(np.random.uniform(10, 100, 100), 1) for store in stores}
 
     # Create the DataFrame
     data = {'Grocery item': grocery_items}
