@@ -6,7 +6,7 @@ from shopping_list import get_shopping_list
 from cheapest_stores import find_cheapest_stores
 
 # List of grocery stores
-stores = ['Meny', 'Spar', 'Kiwi', 'Rema 1000', 'Bunnpris']
+stores = ['Meny', 'Spar', 'Kiwi', 'Rema 1000', 'Bunnpris', 'Coop Extra', 'Coop Prix', 'Coop Obs', 'Coop Mega', 'Joker']
 
 # Get the grocery items DataFrame
 df_grocery_items = get_grocery_items(stores)
